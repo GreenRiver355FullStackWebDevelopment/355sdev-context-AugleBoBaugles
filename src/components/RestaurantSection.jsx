@@ -1,9 +1,10 @@
-import RestaurantsContainer from "./components/RestaurantsContainer";
+import RestaurantsContainer from "./RestaurantsContainer.jsx";
+
 
 function RestaurantSection() {
   return (
     <section>
-      <RestaurantFilter />
+      {/* <RestaurantFilter /> */}
       <RestaurantsContainer />
     </section>
   );

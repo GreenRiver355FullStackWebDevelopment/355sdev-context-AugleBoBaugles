@@ -1,6 +1,11 @@
 import { useState } from "react";
 
+import { useRestaurants } from '../context/RestaurantContext.jsx';
+
 function AddRestaurant() {
+
+  const {updateRestaurants} = useRestaurants();
+
   const [formData, setFormData] = useState({
     name: "",
     address: "",
